@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrap">
+    <form method="hidden" action="#">
+      <fieldset>
+        <legend>개인정보</legend>
+        <input type="hidden" name="id" value="abcde1234"><br>
+        <label for="name">이름1</label> <input type="text"name="name"id="name1"value='저길동' readonly><br>
+        <label for="name">이름2</label> <input type="text"name="name"id="name2"><br>
+        <label for="name">이름3</label> <input type="text"name="name"id="name3" autofocus><br>
+        <label for="name">이름4</label> <input type="text"name="name"id="name4"><br>
+        <label for="memo">메모장</label> <textarea name="memo" id="memo" cols="40"rows="10"></textarea>
+        <label for="product">상품선택</label><textarea name="memo" id="memo" cols="30" rows="10"></textarea><br>
+        <select name="product" id="product">
+          <option value="5kg">선물용5kg</option>
+          <option value="4kg">선물용4kg</option>
+          <option value="3kg"select>선물용3kg</option>
+          <option value="2kg">선물용2kg</option>
+        </select>      
+      </fieldset>
+      <input type="submit"value='전송하기'>
+    </form>
+  </div>
+</body>
+</html>
